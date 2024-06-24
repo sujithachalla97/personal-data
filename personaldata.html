@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Data</h1>
+        <div class="personal-info">
+            <p id="name">Name: John Doe</p>
+            <p id="email">Email: johndoe@example.com</p>
+            <p id="phone">Phone: (123) 456-7890</p>
+        </div>
+        <button id="edit-button">Edit</button>
+        <div id="edit-form" class="hidden">
+            <label for="edit-name">Name:</label>
+            <input type="text" id="edit-name" value="John Doe">
+            <label for="edit-email">Email:</label>
+            <input type="email" id="edit-email" value="johndoe@example.com">
+            <label for="edit-phone">Phone:</label>
+            <input type="tel" id="edit-phone" value="(123) 456-7890">
+            <button id="save-button">Save</button>
+            <button id="cancel-button">Cancel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
